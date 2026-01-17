@@ -18,13 +18,15 @@ function App() {
     setLoading(true);
 
     try {
-      // const response = await fetch('http://localhost:5000/api/summarize', {
-      //   method: 'POST',
-      //   headers: {
-      //     'Content-Type': 'application/json',
-      //   },
-      //   body: JSON.stringify({ url }),
-      // });
+      const API_BASE = 'https://ai-website-summarizer-backend.onrender.com';
+
+      const response = await fetch(`${API_BASE}/api/summarize`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ url }),
+      });
 
       const data = await response.json();
       setSummary(data.summary);
