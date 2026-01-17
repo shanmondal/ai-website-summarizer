@@ -4,7 +4,7 @@
 Users provide a URL, the backend extracts visible text from the webpage, sends it to an AI model, and returns a concise summary.
 
 
-<h3>🚀 Live Demo
+<h3>🚀 Live Demo</h3>  
 
 Frontend (GitHub Pages):
 https://shanmondal.github.io/ai-website-summarizer/
