@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/shanmondal/ai-website-summarizer",
+  "homepage": "https://shanmondal.github.io/ai-website-summarizer/",
 
   "scripts": {
     "dev": "vite",
